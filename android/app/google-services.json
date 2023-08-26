@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "809676297733",
+    "project_id": "offlinemusicapp-3db47",
+    "storage_bucket": "offlinemusicapp-3db47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809676297733:android:1de7e95e7aeb0655b02e6c",
+        "android_client_info": {
+          "package_name": "com.example.xiaomimusicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809676297733-9hn9a0eas746lpmnr7snkte2h2ekliev.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.xiaomimusicapp",
+            "certificate_hash": "3864e647af87dadd002c8ed4dda1b6b01b1414f9"
+          }
+        },
+        {
+          "client_id": "809676297733-fqibi73qik339fhj5ans57s8h046v5d5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7h4wnkcD-v9YCS8UvBWfDJ-E2_kA3rS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809676297733-fqibi73qik339fhj5ans57s8h046v5d5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
