@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:xiaomimusicapp/SongsList.dart';
+
+import 'PlayerController.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
-
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
@@ -10,6 +12,17 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    var controller = Get.put(PlayerController());
+    return Scaffold(
+      body: Obx(() {
+        if (controller.isLoading.value) {
+          return Center(child: CircularProgressIndicator());
+        } else if (controller.songs.isEmpty) {
+          return Center(child: Text("No Songs Found"));
+        } else {
+          return SongsList();
+        }
+      }),
+    );
   }
 }

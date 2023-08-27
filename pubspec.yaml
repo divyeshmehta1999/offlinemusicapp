@@ -41,6 +41,16 @@ dependencies:
   firebase_auth: ^4.8.0
   firebase_core: ^2.15.1
   firebase_phone_auth_handler: ^1.0.8
+  path_provider: ^2.1.0
+  permission_handler: ^10.4.3
+  file_picker: ^5.3.4
+  just_audio: ^0.9.34
+  on_audio_query: ^2.9.0
+  baseflow_plugin_template: ^2.1.2
+  scroll_loop_auto_scroll: ^0.0.5
+  music: ^1.0.3
+  audioplayers: ^5.1.0
+  audiofileplayer: ^2.1.1
 
 dev_dependencies:
   flutter_test:

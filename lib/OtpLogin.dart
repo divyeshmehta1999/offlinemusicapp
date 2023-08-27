@@ -53,6 +53,7 @@ class _OtpLoginState extends State<OtpLogin> {
     try {
       await _auth.signInWithCredential(credential);
       print("OTP verification successful.");
+
       Get.to(() => HomeScreen());
     } catch (e) {
       print("OTP verification failed: $e");
